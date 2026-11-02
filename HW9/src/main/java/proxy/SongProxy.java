@@ -21,7 +21,7 @@ public class SongProxy implements SongService {
     @Override
     public Song searchById(Integer songID) {
         if (idCache.containsKey(songID)) {
-            System.out.println("Found by proxy cache: " + songID);
+            System.out.println("Cached. Retrieving: " + songID);
             return idCache.get(songID);
         }
 

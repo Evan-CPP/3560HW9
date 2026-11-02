@@ -8,7 +8,6 @@ public class RealSongService implements SongService {
 
     public RealSongService() {
         database = new ArrayList<>();
-        // Populating the "server" with your requested artists
         database.add(new Song(1, "still feel.", "Half Alive", "Now, Not Yet", 247));
         database.add(new Song(2, "Runaway", "Half Alive", "Now, Not Yet", 195));
         database.add(new Song(3, "Stressed Out", "Twenty One Pilots", "Blurryface", 202));
