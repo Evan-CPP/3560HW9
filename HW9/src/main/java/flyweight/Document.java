@@ -41,7 +41,7 @@ public class Document {
                     String font = parts[1];
                     String color = parts[2];
                     int size = Integer.parseInt(parts[3]);
-                    
+
                     addCharacter(c, font, color, size);
                 }
             }
